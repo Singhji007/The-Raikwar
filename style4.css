@@ -139,21 +139,36 @@ section {
 }
 
 /* Section-specific background colors */
-#home { background-color: dimgray; }
-#signup { background-color: mediumturquoise; }
-#login { background-color: gray; }
-#dashboard { background-color: mediumaquamarine; }
-#contact { background-color: crimson; }
-#analysis { background-color: gray; }
-#doctor { background-color: grey; }
-#therapy { background-color: lightgreen; }
+#home {
+    background-color: dimgray;
+}
 
-/* :target Styling */
-#home:target { background-color: burlywood; }
-#signup:target { background-color: grey; }
-#login:target { background-color: darkgoldenrod; }
-#dashboard:target { background-color: mediumseagreen; }
-#contact:target { background-color: darkolivegreen; }
-#analysis:target { background-color: darkkhaki; }
-#doctor:target { background-color: mediumturquoise; }
-#therapy:target { background-color: darkorange; }
+#signup {
+    background-color: mediumturquoise;
+}
+
+#login {
+    background-color: gray;
+}
+
+#analysis {
+    background-color: lightseagreen;
+}
+
+#doctor {
+    background-color: darkgoldenrod;
+}
+
+#therapy {
+    background-color: mediumvioletred;
+}
+
+#contact {
+    background-color: lightpink;
+}
+
+footer {
+    background-color: #8B0000;
+    font-size: larger;
+    font-weight: 900;
+}
